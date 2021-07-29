@@ -1,0 +1,34 @@
+.img-wrapper picture,
+.img-wrapper img {
+    width: 100%;
+}
+
+.img-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.icon-l {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-l svg {
+    width: 100%;
+    height: auto;
+}
+
+.icon-l svg path,
+.icon-l {
+    transition: 200ms ease;
+}
+
+.icon-l:hover {
+    background: #000;
+}
+
+.icon-l:hover svg path {
+    fill: #fff;
+}
